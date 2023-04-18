@@ -8,8 +8,8 @@
     "test-ui": "playwright test --ui",
     "report": "playwright show-report",
     "debug": "playwright test --debug",
-    "tanya": "playwright test tanya.spec.ts",
-    "tanya-ui": "playwright test tanya.spec.ts --ui"
+    "playwrightPage": "playwright test playwrightPage.spec.ts",
+    "playwrightPage-ui": "playwright test playwrightPage.spec.ts --ui"
   },
   "keywords": [],
   "author": "",
