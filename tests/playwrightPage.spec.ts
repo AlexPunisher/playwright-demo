@@ -3,7 +3,7 @@ import { createMainPage } from '../PO/mainPage';
 import { MainPage } from '../PO/mainPageClass'; 
 
 const expectedTextArray = ["Node.js", "Python", "Java", ".NET",]; 
-
+// fetch and checkout
 test('go to Instalation page', async ({ page }) => {
     const mainPage = createMainPage(page);
     const generalPage = new MainPage(page)
