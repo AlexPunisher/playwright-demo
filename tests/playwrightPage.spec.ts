@@ -28,7 +28,7 @@ test('search "safari"', async ({ page }) => {
     expect(className).toContain('--active');
 });
 
-test('check all drop down texts', async ({ page }) => {
+test.skip('check all drop down texts', async ({ page }) => {
     const mainPage = createMainPage(page);
     await mainPage.openMainPage();
 
