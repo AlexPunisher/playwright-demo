@@ -4,8 +4,8 @@ import { MainPage } from '../PO/mainPageClass';
 
 const expectedTextArray = ["Node.js", "Python", "Java", ".NET",]; 
 
-
-test('go to Instalation page', async ({ page }) => {
+// use only first test
+test.only('go to Instalation page', async ({ page }) => {
     const mainPage = createMainPage(page);
     const generalPage = new MainPage(page)
 
@@ -28,7 +28,7 @@ test('search "safari"', async ({ page }) => {
     expect(className).toContain('--active');
 });
 
-test.skip('check all drop down texts', async ({ page }) => {
+test('check all drop down texts', async ({ page }) => {
     const mainPage = createMainPage(page);
     await mainPage.openMainPage();
 
