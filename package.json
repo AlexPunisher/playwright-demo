@@ -9,7 +9,8 @@
     "report": "playwright show-report",
     "debug": "playwright test --debug",
     "playwrightPage": "playwright test playwrightPage.spec.ts",
-    "playwrightPage-ui": "playwright test playwrightPage.spec.ts --ui"
+    "playwrightPage-ui": "playwright test playwrightPage.spec.ts --ui", 
+    "newTest": "playwright test newTest.spec.ts"
   },
   "keywords": [],
   "author": "",
